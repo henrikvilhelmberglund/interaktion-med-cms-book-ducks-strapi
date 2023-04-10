@@ -1,0 +1,81 @@
+{
+  "collectionName": "components_font_display_font_displays",
+  "info": {
+    "displayName": "font_display",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_font": {
+      "type": "enumeration",
+      "enum": [
+        "Playfair Display",
+        "Lora",
+        "Cormorant",
+        "Merriweather",
+        "EB Garamond",
+        "Abril Fatface",
+        "Roboto Slab",
+        "Montserrat",
+        "Bitter",
+        "Crimson Text",
+        "Alegreya Sans",
+        "Asap",
+        "Domine",
+        "Fanwood Text",
+        "Gentium Book Basic",
+        "Quattrocento Sans",
+        "Tinos",
+        "Vollkorn"
+      ],
+      "default": "Playfair Display",
+      "required": true
+    },
+    "author_font": {
+      "type": "enumeration",
+      "enum": [
+        "Playfair Display",
+        "Lora",
+        "Cormorant",
+        "Merriweather",
+        "EB Garamond",
+        "Abril Fatface",
+        "Roboto Slab",
+        "Montserrat",
+        "Bitter",
+        "Crimson Text",
+        "Alegreya Sans",
+        "Asap",
+        "Domine",
+        "Fanwood Text",
+        "Gentium Book Basic",
+        "Quattrocento Sans",
+        "Tinos",
+        "Vollkorn"
+      ],
+      "required": true,
+      "default": "Playfair Display"
+    },
+    "y_offset": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "font_weight": {
+      "type": "enumeration",
+      "enum": [
+        "thin",
+        "extralight",
+        "light",
+        "normal",
+        "medium",
+        "semibold",
+        "bold",
+        "extrabold",
+        "black"
+      ],
+      "default": "normal",
+      "required": true
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "book"
+    "displayName": "book",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -31,18 +32,23 @@
       "required": true
     },
     "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "synopsis": {
       "type": "richtext"
+    },
+    "font_component": {
+      "type": "component",
+      "repeatable": false,
+      "component": "font-display.font-display"
     }
   }
 }
