@@ -4,20 +4,27 @@
   "info": {
     "singularName": "rating",
     "pluralName": "ratings",
-    "displayName": "rating"
+    "displayName": "rating",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "stars": {
-      "type": "decimal"
+    "half_stars": {
+      "type": "integer"
     },
     "user": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
+      "inversedBy": "ratings"
+    },
+    "books": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::book.book",
       "inversedBy": "ratings"
     }
   }

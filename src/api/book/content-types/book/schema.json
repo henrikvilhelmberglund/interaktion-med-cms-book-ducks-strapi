@@ -49,6 +49,12 @@
       "type": "component",
       "repeatable": false,
       "component": "font-display.font-display"
+    },
+    "ratings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::rating.rating",
+      "inversedBy": "books"
     }
   }
 }
