@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "active_themes",
+  "info": {
+    "singularName": "active-theme",
+    "pluralName": "active-themes",
+    "displayName": "active theme"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "yellow"
+      ],
+      "required": true
+    }
+  }
+}
