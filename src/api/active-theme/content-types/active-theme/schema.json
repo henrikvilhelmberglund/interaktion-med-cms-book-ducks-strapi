@@ -4,7 +4,8 @@
   "info": {
     "singularName": "active-theme",
     "pluralName": "active-themes",
-    "displayName": "active theme"
+    "displayName": "active theme",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,8 +16,13 @@
       "type": "enumeration",
       "enum": [
         "blue",
-        "yellow"
+        "yellow",
+        "custom"
       ],
+      "required": true
+    },
+    "custom_theme_colors": {
+      "type": "json",
       "required": true
     }
   }
