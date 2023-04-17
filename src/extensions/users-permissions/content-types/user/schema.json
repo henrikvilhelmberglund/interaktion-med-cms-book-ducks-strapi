@@ -71,6 +71,12 @@
       "relation": "oneToMany",
       "target": "api::rating.rating",
       "mappedBy": "user"
+    },
+    "to_read_list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::to-read-list.to-read-list",
+      "inversedBy": "user"
     }
   }
 }
